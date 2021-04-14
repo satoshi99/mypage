@@ -1,0 +1,31 @@
+.header {
+  .title {
+    color: #cab57a;
+  }
+
+  .rightlink {
+    .linkitem {
+      float: left;
+      margin: 20px;
+      position: relative;
+      &:after {
+        position: absolute;
+        bottom: -3px;
+        left: 0;
+        content: '';
+        width: 100%;
+        height: 1px;
+        background: #cab57a;
+        transform: scale(0, 1);
+        transform-origin: center top;
+        transition: transform 0.3s;
+      }
+      &:hover {
+        color: #cab57a;
+        &:after {
+          transform: scale(1, 1);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.wrapper {
+  background-color: #e2f1f8;
+  padding: 80px 100px;
+}
+
+@media (max-width: 960px) {
+  .wrapper {
+    padding: 80px 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  .wrapper {
+    padding: 80px 20px;
+  }
+}

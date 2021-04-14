@@ -1,0 +1,20 @@
+// style of TopPinnedPost.tsx
+.topPinnedPostWrapper {
+  background-image: url('../../public/background.jpg');
+  background-size: cover;
+  height: 100%;
+  color: white;
+  .container {
+    padding: 200px 100px 150px 100px;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+}
+
+@media (max-width: 780px) {
+  .topPinnedPostWrapper {
+    .container {
+      padding: 150px 50px 150px 50px;
+      width: 100%;
+    }
+  }
+}

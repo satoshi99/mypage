@@ -1,0 +1,30 @@
+.body {
+  background-color: #e2f1f8;
+  padding: 100px;
+  .title {
+    h2 {
+      color: #b71c1c;
+    }
+  }
+  h4 {
+    color: rgb(22, 119, 255);
+    margin-top: 40px;
+    margin-bottom: 0;
+    border-bottom: rgb(22, 119, 255) solid 1px;
+  }
+  p {
+    margin-top: 5px;
+  }
+  a {
+    color: #2f89ef;
+    &:hover {
+      color: #f05545;
+    }
+  }
+}
+
+@media (max-width: 960px) {
+  .body {
+    padding: 100px 50px;
+  }
+}
